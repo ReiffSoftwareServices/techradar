@@ -1,7 +1,7 @@
 ---
 title: Eigen Technologies
 ring: assess
-quadrant: Applications
+quadrant: applications
 tags: [Automation & Operations]
 featured: true
 ---

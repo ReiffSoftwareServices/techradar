@@ -1,7 +1,7 @@
 ---
 title: Active Campaign
 ring: adopt
-quadrant: Applications
+quadrant: applications
 tags: [Marketing]
 featured: true
 ---

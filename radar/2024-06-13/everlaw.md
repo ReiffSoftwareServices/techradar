@@ -1,7 +1,7 @@
 ---
 title: Everlaw
 ring: adopt
-quadrant: Applications
+quadrant: applications
 tags: [Legal]
 featured: true
 ---

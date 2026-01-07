@@ -1,7 +1,7 @@
 ---
 title: "Abacus.ai"
 ring: trial
-quadrant: Ai-ml-platforms
+quadrant: ai-ml-platforms
 tags: [Enterprise ML Platforms]
 featured: true
 ---

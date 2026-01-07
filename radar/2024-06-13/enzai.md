@@ -1,7 +1,7 @@
 ---
 title: Enzai
 ring: trial
-quadrant: Ai-ml-platforms
+quadrant: ai-ml-platforms
 tags: [AI Safety & Security]
 featured: true
 ---

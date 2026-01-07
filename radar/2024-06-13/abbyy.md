@@ -1,7 +1,7 @@
 ---
 title: ABBYY
 ring: adopt
-quadrant: Applications
+quadrant: applications
 tags: [Automation & Operations]
 featured: true
 ---

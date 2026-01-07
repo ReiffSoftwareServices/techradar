@@ -1,7 +1,7 @@
 ---
 title: DreamData
 ring: assess
-quadrant: Applications
+quadrant: applications
 tags: [Marketing]
 featured: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: EvenUp
 ring: trial
-quadrant: Applications
+quadrant: applications
 tags: [Legal]
 featured: true
 ---

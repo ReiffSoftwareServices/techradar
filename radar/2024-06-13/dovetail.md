@@ -1,7 +1,7 @@
 ---
 title: Dovetail
 ring: trial
-quadrant: Applications
+quadrant: applications
 tags: [Customer Experience]
 featured: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: eightfold.ai
 ring: adopt
-quadrant: Applications
+quadrant: applications
 tags: [Human Capital]
 featured: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Drift
 ring: assess
-quadrant: Applications
+quadrant: applications
 tags: [Customer Experience]
 featured: true
 ---

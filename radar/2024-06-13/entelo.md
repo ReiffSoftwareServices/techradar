@@ -1,7 +1,7 @@
 ---
 title: Entelo
 ring: trial
-quadrant: Applications
+quadrant: applications
 tags: [Human Capital]
 featured: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Drata
 ring: adopt
-quadrant: Applications
+quadrant: applications
 tags: [Regtech & Compliance]
 featured: true
 ---

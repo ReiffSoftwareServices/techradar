@@ -1,6 +1,6 @@
 {
   "basePath": "/",
-  "baseUrl": "https://www.aoe.com/techradar",
+  "baseUrl": "https://swatechradarautodeploy.z6.web.core.windows.net/",
   "editUrl": "https://github.dev/AOEpeople/techradar/blob/main/radar/{release}/{id}.md",
   "colors": {
     "foreground": "#fff",
@@ -26,13 +26,13 @@
       "color": "#ADD8E6"
     },
     {
-      "id": "Ai-ml-platforms",
+      "id": "ai-ml-platforms",
       "title": "AI & ML Platforms",
       "description": "AI- und ML-Plattformen bieten Tools und Dienste für die gesamte AI- und ML-Projektentwicklung, von der Datenvorbereitung über die Modellierung bis zur Bereitstellung und Überwachung.",
       "color": "#68BBE3"
     },
     {
-      "id": "Applications",
+      "id": "applications",
       "title": "Applications",
       "description": "AI- und ML-Applikationen sind Softwareanwendungen, die KI und maschinelles Lernen verwenden, um Aufgaben zu automatisieren, komplexe Daten zu analysieren und intelligente Vorhersagen zu liefern.",
       "color": "#0E86D4"
