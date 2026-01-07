@@ -41,7 +41,7 @@ jobs:
       run: node node_modules/aoe_technology_radar/bin/techradar.js --version || echo "Direct node failed"
     
     - name: Build Tech Radar
-      run: npm run build
+      run: node node_modules/aoe_technology_radar/bin/techradar.js build --strict
     
     - name: Deploy to Azure Blob Storage
       uses: azure/CLI@v1
