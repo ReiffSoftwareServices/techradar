@@ -21,7 +21,7 @@ jobs:
       run: npm install
     
     - name: Build Tech Radar
-      run: npm run build
+      run: npx techradar build --strict
     
     - name: Deploy to Azure Blob Storage
       uses: azure/CLI@v1
