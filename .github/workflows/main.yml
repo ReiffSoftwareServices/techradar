@@ -19,9 +19,29 @@ jobs:
     
     - name: Install dependencies
       run: npm install
+
+    - name: Debug 1 - Check if binary exists
+      run: |
+        echo "=== Checking binary file ==="
+        ls -la node_modules/aoe_technology_radar/bin/ || echo "Directory not found"
+        
+    - name: Debug 2 - Check binary permissions
+      run: |
+        echo "=== Binary permissions ==="
+        file node_modules/aoe_technology_radar/bin/techradar.js || echo "File not found"
+        stat node_modules/aoe_technology_radar/bin/techradar.js || echo "Stat failed"
+
+    - name: Debug 3 - Check npm bin
+      run: |
+        echo "=== npm bin location ==="
+        npm bin
+        ls -la $(npm bin)/ || echo "npm bin dir not found"
+
+    - name: Debug 4 - Try direct node execution
+      run: node node_modules/aoe_technology_radar/bin/techradar.js --version || echo "Direct node failed"
     
     - name: Build Tech Radar
-      run: npx techradar build --strict
+      run: npm run build
     
     - name: Deploy to Azure Blob Storage
       uses: azure/CLI@v1
