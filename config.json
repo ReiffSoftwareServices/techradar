@@ -1,83 +1,73 @@
 {
   "basePath": "/",
-  "baseUrl": "https://swatechradarautodeploy.z6.web.core.windows.net/",
+  "baseUrl": "https://www.aoe.com/techradar",
   "editUrl": "https://github.dev/AOEpeople/techradar/blob/main/radar/{release}/{id}.md",
-  "logoFile": "logo.svg",
-  "jsFile": "",
-  "toggles": {
-    "showSearch": false,
-    "showChart": true,
-    "showTagFilter": true,
-    "showQuadrantList": true,
-    "showEmptyRings": false
-  },
-  "sections": ["radar", "tags", "list"],
   "colors": {
-    "foreground": "#fcf2e6",
-    "background": "#113521",
-    "highlight": "#d4a373",
+    "foreground": "#fff",
+    "background": "#000000",
+    "highlight": "#0095eb",
     "content": "#fff",
-    "text": "#575757",
-    "link": "#bc6c25",
+    "text": "#6f6f6f",
+    "link": "#0095eb",
     "border": "rgba(255, 255, 255, 0.1)",
     "tag": "rgba(255, 255, 255, 0.1)"
   },
   "quadrants": [
     {
-      "id": "languages-and-frameworks",
-      "title": "Languages & Frameworks",
-      "description": "A selection of programming languages, alongside essential frameworks for building a variety of custom software.",
-      "color": "#a3b18a"
+      "id": "infrastructure",
+      "title": "Infrastructure",
+      "description": "AI-Infrastrukturwerkzeuge unterstützen die Entwicklung und Verwaltung von KI-Anwendungen durch Bereitstellung von Rechenleistung, Datenmanagement und Arbeitsabläufen.",
+      "color": "#0095eb"
     },
     {
-      "id": "methods-and-patterns",
-      "title": "Methods & Patterns",
-      "description": "Key software development methods and design patterns, covering everything from continuous integration and testing to architecture.",
-      "color": "#588157"
+      "id": "analytics",
+      "title": "Analytics",
+      "description": "AI-Analysewerkzeuge verwenden KI und maschinelles Lernen, um Daten zu analysieren, Muster zu erkennen und präzise Ergebnisse durch fortschrittliche Algorithmen zu liefern.",
+      "color": "#ADD8E6"
     },
     {
-      "id": "platforms-and-operations",
-      "title": "Platforms & Operations",
-      "description": "Technologies and tools for software and infrastructure operations, including platforms and services for managing and scaling applications.",
-      "color": "#3f633e"
+      "id": "Ai-ml-platforms",
+      "title": "AI & ML Platforms",
+      "description": "AI- und ML-Plattformen bieten Tools und Dienste für die gesamte AI- und ML-Projektentwicklung, von der Datenvorbereitung über die Modellierung bis zur Bereitstellung und Überwachung.",
+      "color": "#68BBE3"
     },
     {
-      "id": "tools",
-      "title": "Tools",
-      "description": "A range of software tools, from simple productivity enhancers to comprehensive project solutions, catering to various project needs.",
-      "color": "#40713f"
+      "id": "Applications",
+      "title": "Applications",
+      "description": "AI- und ML-Applikationen sind Softwareanwendungen, die KI und maschinelles Lernen verwenden, um Aufgaben zu automatisieren, komplexe Daten zu analysieren und intelligente Vorhersagen zu liefern.",
+      "color": "#0E86D4"
     }
   ],
   "rings": [
     {
       "id": "adopt",
       "title": "Adopt",
-      "description": "",
-      "color": "#588157",
+      "description": "Wir können diese Technologie klar empfehlen. Wir haben sie über einen längeren Zeitraum in vielen Teams verwendet, und sie hat sich als stabil und nützlich erwiesen.",
+      "color": "#5cb449",
       "radius": 0.5,
       "strokeWidth": 5
     },
     {
       "id": "trial",
       "title": "Trial",
-      "description": "",
-      "color": "#457b9d",
+      "description": "Wir haben sie erfolgreich verwendet und empfehlen, sich diese Technologie genauer anzusehen. Das Ziel dieser Tools hier ist es, sie genauer zu betrachten, mit dem Ziel, sie auf das Adopt-Level zu bringen.",
+      "color": "#faa03d",
       "radius": 0.69,
       "strokeWidth": 3
     },
     {
       "id": "assess",
       "title": "Assess",
-      "description": "",
-      "color": "#bc6c25",
+      "description": "Wir haben die Tools ausprobiert und finden sie vielversprechend. Wir empfehlen, diese Tools in Betracht zu ziehen, wenn Sie in Ihrem Projekt einen spezifischen Bedarf an dieser Technologie haben.",
+      "color": "#029df7",
       "radius": 0.85,
       "strokeWidth": 2
     },
     {
       "id": "hold",
       "title": "Hold",
-      "description": "",
-      "color": "#d62828",
+      "description": "Diese Kategorie ist etwas Besonderes. Im Gegensatz zu den anderen empfehlen wir, ein Tool in dieser Kategorie nicht mehr zu verwenden. Das bedeutet nicht, dass es schlecht ist, und oft ist es in bestehenden Projekten in Ordnung, sie weiterhin zu nutzen. Aber wir verschieben Tools hierher, wenn wir denken, dass wir sie in Zukunft nicht mehr nutzen sollten – weil wir jetzt bessere Optionen oder Alternativen sehen.",
+      "color": "#688190",
       "radius": 1,
       "strokeWidth": 0.75
     }
@@ -87,16 +77,16 @@
       "color": "#f1235a",
       "title": "New",
       "titleShort": "N",
-      "description": "New in this version"
+      "description": "Neu in dieser Version"
     },
     "changed": {
       "color": "#40a7d1",
       "title": "Changed",
       "titleShort": "C",
-      "description": "Recently changed"
+      "description": "Kürzlich verändert"
     },
     "default": {
-      "description": "Unchanged"
+      "description": "Unverändert"
     }
   },
   "chart": {
@@ -104,44 +94,30 @@
     "blipSize": 12
   },
   "social": [
-    {
-      "href": "https://twitter.com/aoepeople",
-      "icon": "x"
-    },
-    {
-      "href": "https://www.linkedin.com/company/aoe",
+      {
+      "href": "https://www.linkedin.com/company/tagueri",
       "icon": "linkedIn"
     },
     {
-      "href": "https://www.xing.com/company/aoe",
-      "icon": "xing"
-    },
-    {
-      "href": "https://github.com/aoepeople",
-      "icon": "github"
+      "href": "https://www.instagram.com/tagueriag/",
+      "icon": "instagram"
     }
   ],
-  "imprint": "https://www.aoe.com/en/imprint.html",
+  "imprint": "https://www.tagueri.com/",
   "labels": {
-    "title": "Technology Radar",
-    "imprint": "Legal Information",
+    "title": "Tagueri AI Technologie Radar",
+    "imprint": "Rechtliche Informationen",
     "quadrant": "Quadrant",
     "quadrantOverview": "Quadrant Overview",
-    "zoomIn": "Zoom in",
+    "zoomIn": "Reinzoomen",
     "filterByTag": "Filter by Tag",
-    "footer": "The technology radar is a project by AOE GmbH. Feel free to build your own radar based on the open source project.",
-    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "footer": "Wir verfolgen einen lösungsorientierten Beratungsansatz. Der Grund der Beratung besteht zumeist in einem konkreten Problem oder Vorhaben. Beratung ist in diesem Kontext sehr situations- und problemnah, stellt aber auch große Anforderungen an uns als Problemlöser. Wir greifen dabei auf jahrelange Branchenerfahrung, Wissen & Begeisterung unserer Mitarbeiter sowie unser Netzwerk zurück – um unseren Kunden bestmöglich zur Seite zu stehen. Und das immer dort, wo wir gebraucht werden.",
+    "notUpdated": "Dieses Element wurde in den letzten drei Versionen des Radars nicht aktualisiert. Sollte es in einer der neueren Ausgaben erschienen sein, besteht eine gute Chance, dass es relevant geblieben ist. Wenn das Element jedoch weiter zurückliegt, könnte seine Relevanz abgenommen haben und unsere aktuelle Bewertung könnte variieren. Bedauerlicherweise ist unsere Kapazität, Elemente aus früheren Radar-Editionen regelmäßig zu überprüfen, begrenzt.",
     "notFound": "404 - Page not found",
-    "pageAbout": "How to use AOE Technology Radar?",
-    "pageOverview": "Technologies Overview",
-    "pageSearch": "Search",
-    "searchPlaceholder": "What are you looking for?",
-    "metaDescription": ""
-  },
-  "fuzzySearch": {
-    "threshold": 0.4,
-    "distance": 600,
-    "ignoreLocation": false,
-    "includeScore": true
+    "pageAbout": "Hintergrund & Einführung",
+    "pageOverview": "AI Technologien im Überblick",
+    "pageSearch": "Suche",
+    "searchPlaceholder": "Wonach suchst Du?",
+    "metaDescription": "Bleiben Sie mit dem Tagueri AI Technologie Radar an der Spitze der Webentwicklungssoftware und -trends. Entdecken Sie Einblicke zu Sprachen, Frameworks, Methoden, Tools und mehr."
   }
 }
