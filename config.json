@@ -1,6 +1,6 @@
 {
-  "basePath": "/xxx",
-  "baseUrl": "file:///C:/Users/jan.reiff/devtryout/techradar%20lean%20version/build",
+  "basePath": "/",
+  "baseUrl": "https://swatechradarautodeploy.z6.web.core.windows.net/",
   "editUrl": "https://github.dev/AOEpeople/techradar/blob/main/radar/{release}/{id}.md",
   "logoFile": "logo.svg",
   "jsFile": "",
